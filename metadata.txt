@@ -1,0 +1,51 @@
+# Mandatory items:
+
+[general]
+name=Convert to SQL
+qgisMinimumVersion=3.0
+description=This plugin converts your vector data into INSERT SQL statements for PostgreSQL/PostGIS.
+version=0.1
+author=Jérémy ROUSSEAU
+email=jeremy.rousseau.pro@outlook.fr
+
+about=This plugin allows you to export your vector layers as SQL INSERT statements, saved to a .sql file and compatible with PostgreSQL/PostGIS.
+        Accessible via the toolbox.
+        Key features:
+        - Supports various data types (booleans, dates, numbers, empty/null geometries, and handling of apostrophes)
+        - Generates one INSERT statement per feature
+        - Allows for the restructuring of input fields and/or the re-projection of the source layer
+
+tracker=https://github.com/jeremy-rousseau/ConvertToSql/issues
+repository=https://github.com/jeremy-rousseau/ConvertToSql
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=convert, SQL, PostgreSQL, PostGIS
+
+homepage=https://github.com/jeremy-rousseau/ConvertToSql
+
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category= Database
+
+# If the plugin can run on QGIS Server.
+server=False
+
