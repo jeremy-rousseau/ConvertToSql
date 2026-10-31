@@ -2,7 +2,7 @@
 
 [general]
 name=Convert to SQL
-qgisMinimumVersion=3.0
+qgisMinimumVersion=3.44.15
 description=This plugin converts your vector data into INSERT SQL statements for PostgreSQL/PostGIS.
 version=0.1
 author=Jérémy ROUSSEAU
