@@ -18,7 +18,7 @@ The plugin is designed to simplify the transfer of spatial data from QGIS to Pos
 
 ## Requirements
 
-- QGIS 3.28 or later.
+- QGIS 3.44.15 (LTR) or later.
 - A PostgreSQL database with PostGIS.
 
 ## Installation
@@ -29,7 +29,7 @@ Once the plugin is published, it will be available through the QGIS Plugin Manag
 
 ### Manual installation
 
-1. Download or clone this repository.
+1. Download the release.
 2. Copy the plugin folder into your QGIS Python plugins directory.
 3. Restart QGIS or reload the plugins.
 4. Enable **Convert to SQL** in the Plugin Manager.
