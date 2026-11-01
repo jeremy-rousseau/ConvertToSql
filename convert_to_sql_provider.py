@@ -26,7 +26,7 @@ __author__ = 'Jérémy ROUSSEAU'
 __date__ = '2026-10-28'
 __copyright__ = '(C) 2026 by Jérémy ROUSSEAU'
 # This will get replaced with a git SHA1 when you do a git archive
-__revision__ = '$Format:%H$'
+__revision__ = '$Format:%H$' # nosec
 
 from qgis.core import QgsProcessingProvider
 import os

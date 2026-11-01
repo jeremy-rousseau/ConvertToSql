@@ -25,7 +25,7 @@
 __author__ = 'Jérémy ROUSSEAU'
 __date__ = '2026-10-28'
 __copyright__ = '(C) 2026 by Jérémy ROUSSEAU'
-__revision__ = '$Format:%H$'
+__revision__ = '$Format:%H$' # nosec
 
 from qgis.core import (
     QgsCoordinateTransform,

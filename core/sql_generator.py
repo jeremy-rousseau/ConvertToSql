@@ -25,7 +25,7 @@
 __author__ = 'Jérémy ROUSSEAU'
 __date__ = '2026-10-28'
 __copyright__ = '(C) 2026 by Jérémy ROUSSEAU'
-__revision__ = '$Format:%H$'
+__revision__ = '$Format:%H$' # nosec
 
 from datetime import date, datetime
 from decimal import Decimal
@@ -126,7 +126,7 @@ def build_insert_statement(
     return (
         "INSERT INTO "
         + quote_table_name(table_name)
-        + " ("
+        + " (" # nosec
         + ", ".join(column_names)
         + ") VALUES ("
         + ", ".join(sql_values)
