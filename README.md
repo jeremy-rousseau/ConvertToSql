@@ -18,7 +18,7 @@ The plugin is designed to simplify the transfer of spatial data from QGIS to Pos
 
 ## Requirements
 
-- QGIS 3.44.15 (LTR) or later.
+- QGIS 3.28 (LTR) or later.
 - A PostgreSQL database with PostGIS.
 
 ## Installation
